@@ -1,0 +1,57 @@
+name: taksati_system
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  firebase_core: ^3.0.0
+  firebase_auth: 5.3.4
+  cloud_firestore: ^5.0.0
+  cupertino_icons: ^1.0.8
+  vector_math: ^2.1.0
+  flutter_colorpicker: ^1.0.3
+  image_picker: ^0.8.7
+  model_viewer_plus: ^1.9.1
+  webview_flutter: ^4.0.0
+  flutter_gemini: ^2.0.3
+  google_generative_ai:  
+  intl:
+  stability_image_generation: ^0.0.4
+  dash_chat_2: ^0.0.20
+  js: ^0.6.4
+  screenshot: ^1.2.3 # Add the latest version here
+  image: ^3.0.1 # Image manipulation library
+  flutter_image_compress: ^2.4.0 # Optional, for compressing images
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/dress_model.gltf
+    - web/t_shirt.glb
+    - assets/logo.png
+    - assets/bags.png
+    - assets/bg.jpg
+    - assets/models/t_shirt.glb
+    - assets/splash.png
+    - assets/top.png
+    - assets/dress.png
+    - assets/bottom.png
+    - assets/new_design.png
+    - assets/default_design.png
+    - assets/models/untitled.glb
+    - assets/shirt_black.png
+
+    
+
